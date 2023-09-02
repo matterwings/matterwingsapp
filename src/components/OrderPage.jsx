@@ -40,8 +40,7 @@ function OrderPage() {
             setCurrentTime(new Date());
         }, 1000);
         return () => clearInterval(interval);
-    }, []);
-
+}, [setCurrentTime]);
     const handleChatClick = () => {
         setIsChatOpen(true);
     };
