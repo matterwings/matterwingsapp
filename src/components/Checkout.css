@@ -1,0 +1,77 @@
+.checkout-container {
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.checkout-form {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.checkout-form .submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.checkout-form .submit-button:hover {
+    background-color: #0056b3;
+}
+
+.order-tracking-section {
+    margin-top: 2rem;
+}
+
+.order-track {
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.progress-container {
+    width: 100%;
+    height: 20px;
+    background-color: #e0e0e0;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 4px;
+}
