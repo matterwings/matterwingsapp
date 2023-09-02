@@ -13,16 +13,16 @@ function OrderPage() {
         paymentMethod: 'creditcard'
     });
     const [orders, setOrders] = useState([]);
-    const [currentTime, setCurrentTime] = useState(new Date());
+    const [setCurrentTime] = useState(new Date());
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData(prevState => ({
-            ...prevState,
-            [name]: value
-        }));
-    };
+    // const handleChange = (e) => {
+    //     const { name, value } = e.target;
+    //     setFormData(prevState => ({
+    //         ...prevState,
+    //         [name]: value
+    //     }));
+    // };
 
     const handleSubmit = (e) => {
         e.preventDefault();
