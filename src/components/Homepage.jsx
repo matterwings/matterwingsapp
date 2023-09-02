@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Homepage.css';
 
-import { FaBars, FaTimes, FaShoppingCart, FaHome, FaPlus, FaMinus } from 'react-icons/fa';
+import { FaBars, FaTimes, FaPlus, FaMinus } from 'react-icons/fa';
 import SideMenu from './SideMenu';
 
 
