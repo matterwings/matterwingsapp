@@ -61,7 +61,7 @@ function ContentRepository() {
 }
 
 function PerformanceSection() {
-    const performanceData = {};
+    // const performanceData = {};
     return (
         <section className="dashboard-section">
             <h2>Performance</h2>
@@ -71,7 +71,7 @@ function PerformanceSection() {
 }
 
 function AnalyticsSection() {
-    const analyticsData = {};
+    // const analyticsData = {};
     return (
         <section className="dashboard-section">
             <h2>Analytics</h2>
